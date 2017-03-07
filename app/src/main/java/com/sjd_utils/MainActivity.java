@@ -5,9 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.nfc.NFCActivity;
-import com.view.ListView.NormalListView.NormalListtViewActivity;
-import com.view.ListView.OptimizationListView.OptimizationListtViewActivity;
+import com.sjd.nfc.NFCActivity;
+import com.sjd.view.ListView.NormalListView.NormalListtViewActivity;
+import com.sjd.view.ListView.OptimizationListView.OptimizationListtViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 

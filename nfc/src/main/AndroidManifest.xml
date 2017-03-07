@@ -5,10 +5,12 @@
 
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
+        <activity android:name="com.sjd.nfc.NFCActivity">
 
+        </activity>
     </application>
     <service
-        android:name="com.accountmanager.AuthenticationService"
+        android:name="com.sjd.AccountManager.AuthenticationService"
         android:enabled="false"
         android:exported="true">
         <intent-filter>

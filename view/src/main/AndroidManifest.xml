@@ -3,9 +3,9 @@
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
 
-        <activity android:name=".ListView.NormalListView.NormalListtViewActivity"/>
-        <activity android:name=".ListView.OptimizationListView.OptimizationListtViewActivity"/>
-        <activity android:name=".ListView.LoadListView.LoadListViewActivity"/>
+        <activity android:name="com.sjd.view.ListView.NormalListView.NormalListtViewActivity"/>
+        <activity android:name="com.sjd.view.ListView.OptimizationListView.OptimizationListtViewActivity"/>
+        <activity android:name="com.sjd.view.ListView.LoadListView.LoadListViewActivity"/>
     </application>
 
 </manifest>

@@ -9,8 +9,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.utils_okhttp.OkHttpContent;
-import com.utils_okhttp.RSAUtils;
+import com.sjd.utils_okhttp.OkHttpContent;
+import com.sjd.utils_okhttp.RSAUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,7 +28,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-import static com.utils_okhttp.RSAUtils.loadPublicKey;
+import static com.sjd.utils_okhttp.RSAUtils.loadPublicKey;
 
 /**
  * Created by sjd on 2017/2/13.
