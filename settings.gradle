@@ -1,0 +1,1 @@
+include ':app', ':Utils_okhttp', ':NFC', ':AccountManager', ':View'
