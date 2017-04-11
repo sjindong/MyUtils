@@ -10,7 +10,7 @@ import com.sjd.view.ListView.NormalListView.NormalListtViewActivity;
 import com.sjd.view.ListView.OptimizationListView.OptimizationListtViewActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+    int test= 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
