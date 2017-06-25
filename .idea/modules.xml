@@ -3,10 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/accountmanager/AccountManager.iml" filepath="$PROJECT_DIR$/accountmanager/AccountManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/accountmanager/AccountManager.iml" filepath="$PROJECT_DIR$/accountmanager/AccountManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyUtils.iml" filepath="$PROJECT_DIR$/MyUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyUtils.iml" filepath="$PROJECT_DIR$/MyUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/nfc/NFC.iml" filepath="$PROJECT_DIR$/nfc/NFC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nfc/NFC.iml" filepath="$PROJECT_DIR$/nfc/NFC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils_okhttp/Utils_okhttp.iml" filepath="$PROJECT_DIR$/utils_okhttp/Utils_okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/utils_okhttp/Utils_okhttp.iml" filepath="$PROJECT_DIR$/utils_okhttp/Utils_okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/view/View.iml" filepath="$PROJECT_DIR$/view/View.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view/View.iml" filepath="$PROJECT_DIR$/view/View.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
