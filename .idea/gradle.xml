@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/accountmanager" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/javalib" />
             <option value="$PROJECT_DIR$/nfc" />
             <option value="$PROJECT_DIR$/utils_okhttp" />
             <option value="$PROJECT_DIR$/view" />

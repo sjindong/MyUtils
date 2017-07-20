@@ -1,1 +1,1 @@
-include ':app', ':Utils_okhttp', ':NFC', ':AccountManager', ':View'
+include ':app', ':Utils_okhttp', ':NFC', ':AccountManager', ':View', ':javalib'

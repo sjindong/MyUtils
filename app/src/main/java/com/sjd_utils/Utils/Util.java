@@ -2,12 +2,14 @@ package com.sjd_utils.Utils;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.view.View;
 import android.view.WindowManager;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -73,6 +75,60 @@ public class Util {
     }
 
     /**
+     * ping主机地址 是否能ping通
+     * @param str
+     * @return
+     */
+    public static String pingHost(String str) {
+        String resault = "";
+        try {
+            // TODO: Hardcoded for now, make it UI configurable
+            /*  ping -c 1 -w 100 sina.cn
+                -c: 表示次数，1 为1次
+                -w: 表示deadline, time out的时间，单位为秒，100为100秒。
+                连起来的意思是，ping 主机sina.cn 一次，超时为100秒*/
+            Process p = Runtime.getRuntime().exec("ping -c 1 -w 5 " + str);
+            int status = p.waitFor();
+            if (status == 0) {
+                resault = "success";
+            } else {
+                resault = "faild";
+            }
+        } catch (IOException e) {
+
+        } catch (InterruptedException e) {
+
+        }
+        return resault;
+    }
+
+    /**
+     * #ip 主机IP
+     * #pingCount ping操作次数
+     * #timeout 超时（单位秒）
+     */
+    public static boolean pingHost2(String ip, int pingCount, int timeout) {
+        boolean resault = false;
+        try {
+            // TODO: Hardcoded for now, make it UI configurable
+            /*  ping -c 1 -w 100 sina.cn
+                -c: 表示次数，1 为1次
+                -w: 表示deadline, time out的时间，单位为秒，100为100秒。
+                连起来的意思是，ping 主机sina.cn 一次，超时为100秒*/
+            Process p = Runtime.getRuntime().exec("ping -c " + pingCount + " -w " + timeout + " " + ip);
+            int status = p.waitFor();
+            if (status == 0) {
+                resault = true;
+            }
+        } catch (IOException e) {
+
+        } catch (InterruptedException e) {
+
+        }
+        return resault;
+    }
+
+    /**
      * 请求获取焦点
      *
      * @param view
@@ -121,5 +177,23 @@ public class Util {
         return language.endsWith("zh");
     }
 
+    public static Locale getSystemLanguage()
+    {
+        Locale tempLocale=null;
+        /* 系统源码调用
+        try {
+            IActivityManager am = ActivityManagerNative.getDefault();
+            Configuration config = am.getConfiguration();
+            tempLocale=config.locale;
+        } catch (android.os.RemoteException e) {
+            e.printStackTrace();
+        }
+        finally
+        {
+            return tempLocale;
+        }
+        */
+        return tempLocale;
+    }
 
 }
