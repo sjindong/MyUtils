@@ -42,12 +42,14 @@ public class NFCActivity extends AppCompatActivity {
         if (mNfcAdapter == null) { //设备不支持NFC功能
 //            Toast.makeText(this, "设备不支持NFC！", Toast.LENGTH_LONG).show();
             Log.e("SJD", "onCreate: 设备不支持NFC！");
+            Toast.makeText(this,"设备不支持NFC！",Toast.LENGTH_LONG).show();
             finish();
             return;
         }
         if (!mNfcAdapter.isEnabled()) {//设备没有启用NFC功能
 //            Toast.makeText(this, "请在系统设置中先启用NFC功能！", Toast.LENGTH_LONG).show();
             Log.e("SJD", "onCreate: 请在系统设置中先启用NFC功能！");
+            Toast.makeText(this,"请在系统设置中先启用NFC功能！",Toast.LENGTH_LONG).show();
 //            mNfcAdapter.enable(); 系统函数
             finish();
             return;
