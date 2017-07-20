@@ -1,6 +1,7 @@
 package com.sjd.view.ListView.OptimizationListView;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,11 +45,9 @@ public class OptimizationAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ViewHolder viewHolder = ViewHolder.get(context,convertView,parent,R.layout.normallistview_activity,position);
+        ViewHolder viewHolder = ViewHolder.get(context,convertView,parent,R.layout.normallistview_item,position);
 
-
-        Bean bean = mDatas.get(position);//如果数据时类型ｉｎｔ　类型的话，需要转化为Ｓｔｒｉｎｇ不然会作为资源ＩＤ来处理
-
+        Bean bean = mDatas.get(position);//如果数据时类型int类型的话，需要转化为String不然会作为资源ID来处理
         TextView title = viewHolder.getView(R.id.title);
         title.setText(bean.getTitile());
         TextView desc = viewHolder.getView(R.id.desc);

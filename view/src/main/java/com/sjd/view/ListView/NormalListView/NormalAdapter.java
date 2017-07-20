@@ -44,7 +44,7 @@ public class NormalAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder viewHolder = null;
         if (convertView == null) {
-            convertView = layoutInflater.inflate(R.layout.normallistview_item, parent);
+            convertView = layoutInflater.inflate(R.layout.normallistview_item,parent,false);
             viewHolder = new ViewHolder();
             viewHolder.title = (TextView) convertView.findViewById(R.id.title);
             viewHolder.desc = (TextView) convertView.findViewById(R.id.desc);

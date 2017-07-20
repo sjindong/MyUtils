@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SJD_Utils</string>
+    <string name="okhttp">OkHttp</string>
+    <string name="camera">调用相册和Camera</string>
+    <string name="nfc">NFC</string>
+    <string name="normallistview">NormalListView</string>
+    <string name="optimizationlistview">OptimizationListView</string>
+    <string name="loadlistview">LoadListView</string>
 </resources>

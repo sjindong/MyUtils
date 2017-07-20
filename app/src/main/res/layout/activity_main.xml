@@ -22,54 +22,63 @@
             android:id="@+id/Button1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="okhttp"
-            android:text="okHttp" />
+            android:onClick="onClick"
+            android:text="@string/okhttp" />
 
         <Button
             android:id="@+id/Button2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="cameraAndAlbum"
-            android:text="调用相册和Camera" />
+            android:onClick="onClick"
+            android:text="@string/camera" />
 
         <Button
             android:id="@+id/Button3"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="NFC"
-            android:text="NFC" />
+            android:onClick="onClick"
+            android:text="@string/nfc" />
 
         <Button
             android:id="@+id/Button4"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="NormalListView"
-            android:text="NormalListView" />
+            android:onClick="onClick"
+            android:text="@string/normallistview" />
+
         <Button
             android:id="@+id/Button5"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="OptimizationListView"
-            android:text="OptimizationListView" />
+            android:onClick="onClick"
+            android:text="@string/optimizationlistview" />
 
         <Button
             android:id="@+id/Button6"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
-            android:onClick="loadListView"
-            android:text="LoadListView" />
+            android:onClick="onClick"
+            android:text="@string/loadlistview" />
 
         <Button
             android:id="@+id/Button7"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_margin="3dp"
             android:gravity="center"
+            android:onClick="onClick"
             android:text="Button" />
 
     </LinearLayout>
