@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.sjd.nfc.NFCActivity;
+import com.sjd.view.ListView.LoadListView.LoadListViewActivity;
 import com.sjd.view.ListView.NormalListView.NormalListtViewActivity;
 import com.sjd.view.ListView.OptimizationListView.OptimizationListtViewActivity;
 
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, OptimizationListtViewActivity.class);
                 break;
             case R.id.Button6:
-//                intent = new Intent(this, NFCActivity.class);
+                intent = new Intent(this, LoadListViewActivity.class);
                 break;
             case R.id.Button7:
                 break;

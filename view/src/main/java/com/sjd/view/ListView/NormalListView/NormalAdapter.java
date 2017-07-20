@@ -55,7 +55,7 @@ public class NormalAdapter extends BaseAdapter {
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        Bean bean = mDatas.get(position);//如果数据时类型ｉｎｔ　类型的话，需要转化为Ｓｔｒｉｎｇ不然会作为资源ＩＤ来处理
+        Bean bean = mDatas.get(position);//如果数据时类型int　类型的话，需要转化为String不然会作为资源ID来处理
         viewHolder.title.setText(bean.getTitile());
         viewHolder.desc.setText(bean.getDesc());
         viewHolder.time.setText(bean.getTime());
