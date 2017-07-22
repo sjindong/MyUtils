@@ -25,7 +25,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/okhttp" />
+            android:text="@string/okhttp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button2"
@@ -34,7 +35,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/camera" />
+            android:text="@string/camera"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button3"
@@ -43,7 +45,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/nfc" />
+            android:text="@string/nfc"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button4"
@@ -52,7 +55,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/normallistview" />
+            android:text="@string/normallistview"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button5"
@@ -61,7 +65,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/optimizationlistview" />
+            android:text="@string/optimizationlistview"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button6"
@@ -70,7 +75,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="@string/loadlistview" />
+            android:text="@string/loadlistview"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/Button7"
@@ -79,7 +85,8 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
-            android:text="Button" />
+            android:text="Button"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 </RelativeLayout>
