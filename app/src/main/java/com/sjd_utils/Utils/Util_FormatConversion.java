@@ -1,5 +1,6 @@
 package com.sjd_utils.Utils;
 
+import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -39,4 +40,42 @@ public class Util_FormatConversion {
         }
         return re_time;
     }
+
+    //数字 转换
+    /**
+     * 取小数点,四舍五入后.
+     */
+    public static String formatDouble(double str, int count) {
+        BigDecimal bd = new BigDecimal(str);
+        bd = bd.setScale(count, BigDecimal.ROUND_HALF_UP);
+        return bd.toString();
+    }
+
+    /**
+     * 取小数点,四舍五入后.
+     */
+    public static String formatFloat(float str, int count) {
+        BigDecimal bd = new BigDecimal(str);
+        bd = bd.setScale(count, BigDecimal.ROUND_HALF_UP);
+        return bd.toString();
+    }
+
+    /**
+     * 取小数点,四舍五入后.
+     */
+    public static float formatToFloat(double str, int count) {
+        BigDecimal bd = new BigDecimal(str);
+        bd = bd.setScale(count, BigDecimal.ROUND_HALF_UP);
+        return bd.floatValue();
+    }
+
+    /**
+     * 取小数点,四舍五入后.
+     */
+    public static float formatToFloat(String str, int count) {
+        BigDecimal bd = new BigDecimal(str);
+        bd = bd.setScale(count, BigDecimal.ROUND_HALF_UP);
+        return bd.floatValue();
+    }
+
 }

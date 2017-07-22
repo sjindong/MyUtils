@@ -3,12 +3,17 @@ package com.sjd_utils;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.sjd.nfc.NFCActivity;
 import com.sjd.view.ListView.LoadListView.LoadListViewActivity;
 import com.sjd.view.ListView.NormalListView.NormalListtViewActivity;
 import com.sjd.view.ListView.OptimizationListView.OptimizationListtViewActivity;
+
+import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
     int test = 0;
@@ -49,7 +54,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
-
-
-
+    
 }
