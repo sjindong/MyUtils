@@ -47,6 +47,9 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(this, LoadListViewActivity.class);
                 break;
             case R.id.Button7:
+                intent = new Intent(this,TelePhoneEditTextActivity.class);
+                break;
+            case R.id.Button8:
                 break;
         }
         if (intent != null) {

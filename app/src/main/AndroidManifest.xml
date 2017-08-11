@@ -23,6 +23,7 @@
         </activity>
         <activity android:name=".CameraAndAlbumActivity">
         </activity>
+        <activity android:name=".TelePhoneEditTextActivity"/>
     </application>
 
 </manifest>

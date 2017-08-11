@@ -6,4 +6,5 @@
     <string name="normallistview">NormalListView</string>
     <string name="optimizationlistview">OptimizationListView</string>
     <string name="loadlistview">LoadListView</string>
+    <string name="telephoneedittext">TelePhoneEditText</string>
 </resources>

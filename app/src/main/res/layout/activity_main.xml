@@ -85,6 +85,16 @@
             android:layout_margin="3dp"
             android:gravity="center"
             android:onClick="onClick"
+            android:text="@string/telephoneedittext"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/Button8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:gravity="center"
+            android:onClick="onClick"
             android:text="Button"
             android:textAllCaps="false" />
 
